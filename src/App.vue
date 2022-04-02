@@ -1,14 +1,20 @@
 <template>
-  <Prueba/>
+  <Header/>
+  <Body/>
+  <Footer/>
 </template>
 
 <script>
-import Prueba from './components/PagePrueba';
+import Header from './components/PageHeader';
+import Body from './components/PageBody';
+import Footer from './components/PageFooter';
 
 export default{
   name:'App',
   components:{
-    Prueba 
+    Header,
+    Body,
+    Footer
   }
   
 }
